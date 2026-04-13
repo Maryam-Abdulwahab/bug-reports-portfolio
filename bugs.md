@@ -1,13 +1,41 @@
-# Bug Reports Portfolio
+# Bug Report 001
 
-This repository contains sample bug reports created during QA practice.
+## Title:
+Login button not working
 
-## Skills Demonstrated
-- Bug identification
-- Writing clear steps to reproduce
-- Expected vs Actual results
-- Severity classification
+## Environment:
+Chrome Browser / Windows
 
-## Author
-Maryam Abdulwahab
-Junior QA Engineer
+## Steps to Reproduce:
+1. Open login page  
+2. Enter valid credentials  
+3. Click Login button  
+
+## Expected Result:
+User should be redirected to dashboard
+
+## Actual Result:
+Nothing happens when clicking the button
+
+## Severity:
+High
+
+---
+
+# Bug Report 002
+
+## Title:
+Password field is visible
+
+## Steps to Reproduce:
+1. Open login page  
+2. Type password  
+
+## Expected Result:
+Password should be hidden (***)
+
+## Actual Result:
+Password is visible in plain text
+
+## Severity:
+Medium
